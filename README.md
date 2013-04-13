@@ -39,19 +39,19 @@ Image Output
 -------------
 * Mask
 
-![Alt text](dct/Masked0.png "masked") 4 coefficients, PSNR = 25.199335
-![Alt text](dct/Masked1.png "masked") 8 coefficients, PSNR = 28.480326
-![Alt text](dct/Masked2.png "masked") 16 coefficients, PSNR = 31.748827
-![Alt text](dct/Masked3.png "masked") 32 coefficients, PSNR = 37.141102
+![Alt text](dctimg/Masked0.png "masked") 4 coefficients, PSNR = 25.199335
+![Alt text](dctimg/Masked1.png "masked") 8 coefficients, PSNR = 28.480326
+![Alt text](dctimg/Masked2.png "masked") 16 coefficients, PSNR = 31.748827
+![Alt text](dctimg/Masked3.png "masked") 32 coefficients, PSNR = 37.141102
 
 * JPEG
 
-![Alt text](dct/Quantized0.500000.png "JPEG") Scale Factor = 0.5, PSNR = 36.912891
-![Alt text](dct/Quantized1.000012.png "JPEG") Scale Factor = 1, PSNR = 34.283901
-![Alt text](dct/Quantized2.000000.png "JPEG") Scale Factor = 2, PSNR = 32.069393
-![Alt text](dct/Quantized4.000000.png "JPEG") Scale Factor = 4, PSNR = 29.646105
-![Alt text](dct/Quantized8.000000.png "JPEG") Scale Factor = 8, PSNR = 26.986332
-![Alt text](dct/Quantized16.000000.png "JPEG") Scale Factor = 16, PSNR = 23.879482
+![Alt text](dctimg/Quantized0.500000.png "JPEG") Scale Factor = 0.5, PSNR = 36.912891
+![Alt text](dctimg/Quantized1.000012.png "JPEG") Scale Factor = 1, PSNR = 34.283901
+![Alt text](dctimg/Quantized2.000000.png "JPEG") Scale Factor = 2, PSNR = 32.069393
+![Alt text](dctimg/Quantized4.000000.png "JPEG") Scale Factor = 4, PSNR = 29.646105
+![Alt text](dctimg/Quantized8.000000.png "JPEG") Scale Factor = 8, PSNR = 26.986332
+![Alt text](dctimg/Quantized16.000000.png "JPEG") Scale Factor = 16, PSNR = 23.879482
 
 
 <pre>
@@ -67,9 +67,8 @@ Homework: Coding
 
 Image Output
 -------------
-* EBMA Predicted Image
 
-![Alt text](predicted.png "Predicted") PSNR = 34.537937
+![Alt text](predicted.png "Predicted") EBMA predicted image, PSNR = 34.537937
 
 Terminal Output
 -------------
