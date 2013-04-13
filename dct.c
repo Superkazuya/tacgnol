@@ -13,7 +13,7 @@ main(int argc, char** argv)
   /*Error Handling*/
   if(argc < 2)
     goto NO_ENOUGH_ARG;
-  IplImage* image	= cvLoadImage(argv[1], 0); //Load the image as is
+  IplImage* image	= cvLoadImage(argv[1], 0); //Load grayscale image
 
   /*Error Handling*/
   if(!image|| image->nChannels != CHANNEL_NUM || image->width < BLK_W || image->height < BLK_H)
@@ -29,7 +29,7 @@ main(int argc, char** argv)
 
   float scale[] = {0.5, 1, 2, 4, 8, 16};
   int mask_no;    
-  char filename[13]; //8.3
+  char filename[13]; 
   for (mask_no = 0; mask_no < 4; mask_no++) 
   {
     cvBlkDCT(img, dct_img, mask_no);

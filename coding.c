@@ -16,8 +16,8 @@ main(int argc, const char *argv[])
   /*Error Handling*/
   if(argc < 3)
     goto NO_ENOUGH_ARG;
-  IplImage* img_target	= cvLoadImage(argv[1], 0); //Load the image as is
-  IplImage* img_anchor	= cvLoadImage(argv[2], 0); //Load the image as is
+  IplImage* img_target	= cvLoadImage(argv[1], 0); //Load grayscale image
+  IplImage* img_anchor	= cvLoadImage(argv[2], 0); //Load grayscale image
   IplImage* img_pred	= cvCreateImage(cvGetSize(img_target), img_target->depth, img_target->nChannels);
   IplImage* img_diff	= cvCreateImage(cvGetSize(img_target), IPL_DEPTH_32F, img_target->nChannels);
   IplImage* img_index	= cvCreateImage(cvGetSize(img_target), IPL_DEPTH_32S, img_target->nChannels);
@@ -37,7 +37,7 @@ main(int argc, const char *argv[])
 
   //printf("CHANN_NO: %d,\nIS UCHAR: %d\n\n", img_anchor->nChannels, img_anchor->depth == IPL_DEPTH_8U);
   //1
-  printf("Direct Method: \n");
+  printf("\nDirect Method: \n");
   print_VARIANCE(img_anchor);
   cvBlkDCT_JPEG(img_anchor, img_index, 1);
   printf("Non-zero Coefficient: %d\n\n", cvCountNonZero(img_index));

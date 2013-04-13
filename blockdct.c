@@ -1,6 +1,6 @@
 #include "blockdct.h"
 
-uchar Q_MASK[][BLK_H*BLK_W] = {{
+static uchar Q_MASK[][BLK_H*BLK_W] = {{
 1, 1, 1, 0, 0, 0, 0, 0, 
 1, 0, 0, 0, 0, 0, 0, 0, 
 0, 0, 0, 0, 0, 0, 0, 0, 
