@@ -55,7 +55,7 @@ Image Output
 
 
 <pre>
-From PSNRs above we can tell that to attain a PSNR ``>= 30dB``, _a coefficient number of 16 / scale factor of 2 _
+From PSNRs above we can tell that to attain a PSNR >= 30dB, a coefficient number of 16 / scale factor of 2 
 
 is required.
 </pre>
@@ -97,7 +97,7 @@ Terminal Output
 
 > Variance: 23.048000
 
-
+> Non-zero Coefficient: 3938
 
 
 <pre>
