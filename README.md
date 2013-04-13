@@ -9,18 +9,20 @@ Homework: DCT & Quantization
 Terminal Output
 -------------
 (Mask)
-> ``new_hw> ./dct foreman100.bmp ``
-> PSNR: 25.199335
-> PSNR: 28.480326
-> PSNR: 31.748827
-> PSNR: 37.141102
+> ``new_hw> ./dct foreman100.bmp ``\\
+> PSNR: 25.199335\\
+> PSNR: 28.480326\\
+> PSNR: 31.748827\\
+> PSNR: 37.141102\\
+
 (Quantization)
-> PSNR: 36.912891
-> PSNR: 34.283901
-> PSNR: 32.069393
-> PSNR: 29.646105
-> PSNR: 26.986332
-> PSNR: 23.879482
+
+> PSNR: 36.912891\\
+> PSNR: 34.283901\\
+> PSNR: 32.069393\\
+> PSNR: 29.646105\\
+> PSNR: 26.986332\\
+> PSNR: 23.879482\\
 
 
 Image Output
